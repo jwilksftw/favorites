@@ -26,13 +26,13 @@ outToFile.close()
 
 with open ("favoritesmail.txt", "r") as myfile:
     data=myfile.read()
-fromaddr = 'jwilksftw@gmail.com'  
-toaddrs  = 'jwilksftw@gmail.com'  
+fromaddr = 'YOUREMAIL@gmail.com'  
+toaddrs  = 'YOUREMAIL@gmail.com'  
 msg = data    
   
 # Credentials (if needed)  
-username = 'jwilksftw'  
-password = 'zottoz000'  
+username = 'YOUR EMAIL USERNAME'  
+password = 'YOUR EMAIL PASSWORD'  
   
 # The actual mail send  
 server = smtplib.SMTP('smtp.gmail.com:587')  
